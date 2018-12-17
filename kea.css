@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.logo {
+    width: 20%
+
+}
+
+/* Bordered form */
+form {
+  border: 3px solid #f1f1f1;
+}
+
+/* width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* paddings*/
+.container {
+  padding: 16px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+body {
+    background-image: url(background.jpg);}
+
+#icon{
+    margin-left: 1200px;
+
+}
+
+body{
+    background-color:gainsboro;
+}
+
+/*/burger menu/*/
+
+label[for=menu] {
+    color: black;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+}
+
+#menu {
+    display: none;
+}
+
+#menu:checked ~ nav {
+    display: block
+}
+
+
+footer {
+    color: aliceblue
+}
+
+main{
+    grid-area: main-area;
+grid-column-gap:1em;
+grid-row-gap:1em;}
+
+    font-family: 'Verdana', sans-serif;
+}
+
+
+a {
+    color: aliceblue;
+}
+
+
+nav a {
+    display: block;
+
+}
+
+/*links have 4 states*/
+nav a:link {
+    color: aliceblue;
+
+}
+
+nav a:visited {
+    color: beige;
+    cursor: pointer;
+
+}
+
+nav a:hover {
+    color: azure;
+    background-color: darkgray;
+
+
+}
+
+nav a:active {
+    color: aqua;
+}
+
+#avatar{
+   width:59px;
+}
+
+#new{
+    width: 675px;
+    height: 200px;
+}
+
+#group{
+    width: 675px;
+    height: 200px;
+
+}
+
+
+.box1{
+    width:200px;
+    margin-left:70px;
+    margin-top:30px;
+
+}
+
+#key{
+    width:250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
